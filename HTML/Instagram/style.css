@@ -41,7 +41,7 @@ body {
     align-items: center;
     justify-content: space-around;
     flex-direction: column;
-    width: 50%;
+    width: 44%;
     min-height: 34rem;
 }
 
@@ -70,7 +70,7 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    overflow: hidden
+    overflow: hidden;
 }
 
 .profile-photo img {
@@ -133,6 +133,10 @@ body {
     .instagram-wrapper {
         width: 90%;
     }
+    .app-download {
+        height: 2.6rem;
+        width: 9rem;
+    }
 }
 
 @media (max-width: 650px) {
@@ -154,5 +158,8 @@ body {
 
     .group {
         border: 1px solid transparent;
+    }
+    .get-the-app {
+        width: 66%;
     }
 }
