@@ -1,0 +1,16 @@
+@media screen and (max-width: 700px) {
+    header .container nav {
+        display: none;
+    }
+
+    .botao {
+        margin-top: 5px;
+        width: 300px;
+    }
+}
+
+@media  and (min-width: 1000px) {
+    .descricao {
+        width: 50%;
+    }
+}
